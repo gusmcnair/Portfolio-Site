@@ -282,18 +282,17 @@ section {
         text-align: left;
     }
 
-    .section2 {
+    section:nth-of-type(odd){
         flex-direction: row-reverse;
     }
 
-    .section2 > article {
+    section:nth-of-type(odd) > article {
         text-align: right;
     }
 
-    .section2 > article > h4 {
+    section:nth-of-type(odd) > article > h4 {
         text-align: right;
     }
-
 
     article {
         padding-left: 50px;

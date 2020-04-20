@@ -27,9 +27,16 @@ $(() => {
     });
 
     //Scrolls to portfolio on click of button
-    $(".portfolio-button").click(function (){
+    $(".js-react").click(function (){
         $("html, body").animate({
             scrollTop: $("hr").offset().top
         }, 1000)
+        })
+
+    //Scrolls to portfolio on click of button
+    $(".wordpress").click(function (){
+        $("html, body").animate({
+            scrollTop: $(".top-wordpress").offset().top
+        }, 1500)
         })
 });

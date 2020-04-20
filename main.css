@@ -156,7 +156,7 @@ button:active {
 nav ul > li > a, .portfolio-button {
     text-decoration: none;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     line-height: 3rem;
     font-weight: 600;
 }
@@ -202,7 +202,15 @@ article {
 section {
     margin-bottom: 40px;
     margin-top: 20px;
+}
 
+.content-container h2 {
+    font-family: 'Titillium Web', sans-serif;
+    color: steelblue;
+    font-size: 1.8rem;    
+    padding-top: 30px;
+    padding-bottom: 0px;
+    font-weight: bold;
 }
 
 
@@ -306,6 +314,5 @@ section {
         font-size: 3rem;
     }
 
-    .display-ero
 
 }

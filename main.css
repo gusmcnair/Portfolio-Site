@@ -161,6 +161,12 @@ nav ul > li > a, .portfolio-button {
     font-weight: 600;
 }
 
+i.fab {
+    font-weight: normal;
+}
+
+
+
 nav ul > li > a:hover, .portfolio-button:hover {
     cursor: pointer;
     color: lightgray;
@@ -218,6 +224,10 @@ section {
 
 
 @media only screen and (min-width: 800px){
+
+    ul {
+        display: flex;
+    }
  
     .container {
         width: 90%;
